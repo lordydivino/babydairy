@@ -1,0 +1,996 @@
+.body {position: relative;
+width: 1440px;
+height: 4655px;
+
+background: #FFFFFF;
+ font-family: 'Quicksand', sans-serif;}
+
+ .header{
+    box-sizing: border-box;
+border: 1px solid black;
+position: absolute;
+width: 1474px;
+height: 79px;
+left: -17px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid #E4E5E7;
+ }
+
+.search{
+ box-sizing: border-box;
+padding-left: 40px;
+position: absolute;
+width: 401px;
+height: 35px;
+left: 287px;
+top: 22px;
+font-family: 'Quicksand', sans-serif;
+background: #FFFFFF;
+border: 1px solid #E8E8EA;
+border-radius: 5px;
+}
+.searchicon{
+    position: absolute;
+left: 69.37%;
+right: 12.5%;
+top: 69.38%;
+bottom: 12.5%;
+margin-left: -727px;
+ margin-right: -10px;
+ margin-top: -20px;
+
+}
+.searchbutton{
+    width: 85px;
+    height: 35px;
+    background-color: #ED6FAB; 
+    color: white;
+    margin-top: 22px;
+    margin-left: 688px;
+    border: none;
+    border-radius: 0px 5px 5px 0px; 
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+
+  .divine{
+    display: flex; 
+    flex-direction: row; 
+    gap: 31px;
+    position: absolute;
+width: 235px;
+height: 24px;
+left: 1008px;
+top: 15px;
+margin-left: -110px;
+font-family: 'Quicksand', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+  }
+  .signupbutton{
+    position: absolute;
+width: 85px;
+height: 35px;
+left: 1173px;
+top: 27px;
+background: #ED6FAB;
+border-radius: 5px;
+border: none;
+font-family: 'Quicksand', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+  }
+
+  .signupbutton:hover{
+    background-color: black; 
+    color: white; 
+    transition-property: ease-in;
+    transition-duration: 5s;
+    cursor: pointer;
+  }
+  .header2{
+    box-sizing: border-box;
+    display: flex; 
+    flex-direction: row; 
+    gap: 125px;
+  position: absolute;
+  width: 1474px;
+  padding-left: 80px;
+  height: 41px;
+  left: -17px;
+  top: 78px;
+  font-family: 'Quicksand', sans-serif;
+  background: #FFFFFF;
+  border: 1px solid #E4E5E7;
+  }
+  /*First section with its background and all its contents goes in here*/ 
+    .homepage{
+        width: 100%; 
+        height: 642px; 
+        background-image: url('Rectangle\ 6.png');
+        background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: 100%;
+        z-index: 1000;
+        }
+     /*This is for the overlay of the background, making it look dimmer*/
+   .pictureoverlay{
+    width: 100%; 
+    height: 642px; 
+    background-color: rgba(0,0,0,0.45);
+   } 
+   /*This is for the heading of the Introductory page.*/ 
+   .heading{
+    width: 516px; 
+    height: 119px; 
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: 700; 
+    font-size: 48px; 
+    line-height: 59.5px; 
+    color: rgba(255, 255, 255, 1); 
+    margin-left: 100px;
+    margin-top: -452px;
+   }
+   .subheading{
+    width: 588px; 
+    height: 73px;
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: 500;
+    color:#FFFFFF;
+    font-size: 18px; 
+    line-height: 30.5px; 
+    margin-left: 100px; 
+    margin-top: 9px; 
+   }
+
+   /*This is the get started button in the homepage*/
+   .getstarted{
+    width: 136px; 
+    height: 47px; 
+    background-color: rgba(237, 111, 171, 1); 
+    color: white; 
+    border-radius: 6.71px; 
+    margin-left: 100px;
+    margin-top: 22px; 
+    border: none; 
+    cursor: pointer; 
+    font-family: 'Quicksand', sans-serif;
+    font-size: 500;
+    text-align: center;
+    font-size: 16px;
+   }
+   .getstarted:hover{
+    background-color: black;
+    color:#FFFFFF; 
+    transition-property: all; 
+    transition-duration: 0.5s; 
+   }
+    /*This is the Sign In button where the user can easily log in an account created before in the homepage*/ 
+    .signinbutton{
+        width: 136px; 
+    height: 47px; 
+    background-color: rgba(255, 255, 255, 1); 
+    color: black; 
+    border-radius: 6.71px; 
+    margin-left: 22px;
+    margin-top: 22px; 
+    border: none; 
+    cursor: pointer; 
+    font-family: 'Quicksand', sans-serif;
+    font-size: 500;
+    text-align: center;
+    font-size: 16px;
+    }
+    .signinbutton:hover{
+        background-color: black;
+        color:#FFFFFF; 
+        transition-property: all; 
+        transition-duration: 0.5s; 
+       }
+       .pagetwoheading{
+        width: 483px; 
+        height: 30px; 
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700; 
+        font-size: 32px; 
+        color: rgba(160, 160, 160, 1); 
+        align-items: center;
+        text-align: center;
+        margin-left: 550px;
+    }
+     /*This is the part where you get to see the stages of pregnancy in the homepage*/ 
+     .pregnancystages{
+      position: absolute; 
+      width: 100%; 
+      height: 164px; 
+    }
+    
+    /*This is the part where you get to see videos of how you can see the condition of your baby during pregnancy in the homepage/
+    */
+   .pagethreeheading{
+        border: 1px solid rgba(255, 228, 241, 0.29);
+        width: 100%; 
+        height: 441px;
+        margin-top: 12%;
+        background: rgba(255, 228, 241, 0.29);
+    }
+    .pagethreecontent{
+        width: 563px; 
+        height: 192px; 
+        margin-left: 100px;
+        margin-top: 125px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 700; 
+        font-size: 48px; 
+        color: rgba(69, 69, 69, 1); 
+        line-height: 59.5px;
+    }
+    /*Button where the user can easily use to access baby scan or create an account if needed*/
+    .showmebutton{
+        width: 136px; 
+        height: 47px; 
+        background-color: rgba(237, 111, 171, 1); 
+        color: #FFFFFF; 
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500; 
+        font-size: 16px;
+        text-align: center;
+        margin-left: 0px; 
+        margin-top: 5%;
+        border: none; 
+        cursor: pointer;
+        border-radius: 6.71429px;
+    }
+    .showmebutton:hover{
+        background-color: black;
+        color:#FFFFFF; 
+        transition: ease-in-out 0.4s; 
+       }
+    
+       .createaccountbutton{
+        width: 136px; 
+        height: 47px; 
+        background-color: rgba(255, 255, 255, 1); 
+        color: #000; 
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500; 
+        font-size: 16px;
+        text-align: center;
+        margin-left: 0px; 
+        margin-top: 5%;
+        border: none; 
+        cursor: pointer;
+        border-radius: 6.71429px;
+    }
+    .createaccountbutton:hover{
+        background-color: black;
+        color:#FFFFFF; 
+        transition: ease-in-out 0.4s; 
+       }
+    /*This is where the user can find a video sample on how to contact a doctor and get Anti-natal*/
+       .babyvideocontainer{
+        width: 587px; 
+        height: 302px; 
+        margin-left: 60%;
+        margin-top: -249px;
+       }
+    
+       .playbuttoncontainer{
+        display: flex;
+        flex-direction: row; 
+        width: 73px; 
+        height: 73px;
+        margin-top: -32%;
+        margin-left: 45%;
+       }
+       .playbutton{
+        width: 73px; 
+        height: 73px; 
+        background-color: #FFFFFF; 
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+        border-radius: 36.5px;
+        border: none;
+        margin-left: 0%;
+        cursor: pointer;
+        }
+        .playicon{
+            margin-top: 2%;
+            margin-left: 10%;
+        }
+    
+        /*Fourth page*/
+        .pagefourheading{
+          
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700; 
+            line-height: 30.05px; 
+            color: rgba(36, 36, 36, 1); 
+            font-size: 32px;
+            margin-top: 84px; 
+            margin-left: 20px;
+            margin-bottom: 50px;
+        }
+    /*All Experts advices and services rendered are displayed here*/
+    .pagefourphotos{
+      display: flex;
+    }
+     .photo1{
+            width: 292px; 
+            height: 380px;
+            margin: 30px;
+border-radius: 10px;
+            background-image: url('Rectangle 11.png');
+            background-repeat: none;
+            background-position: center;
+            background-size: cover;
+            color:#FFFFFF;
+        padding: 20px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700; 
+            font-size: 24px;
+     }
+        .photo2{
+            width: 292px; 
+            height: 380px;
+            margin: 30px;
+            border-radius: 10px;
+
+            background-image: url('Rectangle 13.png');
+            background-repeat: none;
+            background-position: center;
+            background-size: cover;
+            color:#FFFFFF;
+            padding: 20px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700; 
+            font-size: 24px;
+           }
+          
+    
+        .photo3{
+            width: 292px; 
+            height: 380px;
+            margin: 30px;
+            border-radius: 10px;
+            background-image: url('Rectangle 15 (1).png');
+            background-repeat: none;
+            background-position: center;
+            background-size: cover;
+            color:#FFFFFF;
+        padding: 20px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700; 
+            font-size: 24px;
+           }
+          
+          
+        .photo4{
+            width: 292px; 
+            height: 380px;
+            margin: 30px;
+border-radius: 10px;
+
+            background-image: url('Rectangle 17 (4).png');
+            background-repeat: none;
+            background-position: center;
+            background-size: cover;
+            color:#FFFFFF;
+        padding: 20px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700; 
+            font-size: 24px;
+           }
+          
+          
+    
+        /*Fifthpage*/ 
+        .pagefiveheading{
+            width: 483px; 
+            height: 34px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700; 
+            font-size: 32px; 
+            line-height: 30.05px; 
+            margin-left: 100px;
+            margin-top: 400px;
+            color: #242424; 
+    
+        }
+    /*All tools used by the experts are being displayed here*/
+        .pagefivecontent{
+            width: 1239px; 
+            height: 288px; 
+            margin-top: 57px;
+            margin-left: 100px;
+        } 
+    
+        .calendar{
+            margin-left: 122px;
+        }
+        .reddot{
+            margin-top: -55px;
+            margin-left: 155px;
+            width: 27px; 
+            height: 27px; 
+            border-radius: 13.5px;
+            background-color: rgba(237, 111, 171, 1);
+        } 
+    
+    .toolname1{
+        margin-left: 100px;
+        margin-top: 60px; 
+        font-family: 'Quicksand', sans-serif;
+       font-weight: 500; 
+        font-size: 16px; 
+        font-weight: 290px; 
+        height: 31px;
+        color: rgba(0, 0, 0, 1);
+    }
+    
+    .calculator{
+        margin-left: 480px;
+       margin-bottom: 95px;
+       margin-top: -125px;
+    }
+    .reddot2{
+        margin-top: -155px;
+        margin-left: 510px;
+        width: 27px; 
+        height: 27px; 
+        border-radius: 13.5px;
+        background-color: rgba(237, 111, 171, 1);
+    } 
+    
+    .toolname2{
+    margin-left: 400px;
+    margin-top: 60px; 
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500; 
+    font-size: 16px; 
+    font-weight: 290px; 
+    height: 31px;
+    color: rgba(0, 0, 0, 1);
+    }
+       
+    .clock{
+        margin-left: 850px;
+       margin-bottom: 95px;
+       margin-top: -125px;
+    }
+    .reddot3{
+        margin-top: -150px;
+        margin-left: 870px;
+        width: 27px; 
+        height: 27px; 
+        border-radius: 13.5px;
+        background-color: rgba(237, 111, 171, 1);
+    } 
+    
+    .toolname3{
+    margin-left: 800px;
+    margin-top: 55px; 
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500; 
+    font-size: 16px; 
+    font-weight: 290px; 
+    height: 31px;
+    color: rgba(0, 0, 0, 1);
+    }
+    
+    .graph{
+        margin-left: 1150px;
+       margin-bottom: 95px;
+       margin-top: -125px;
+    }
+    .reddot4{
+        margin-top: -150px;
+        margin-left: 1175px;
+        width: 27px; 
+        height: 27px; 
+        border-radius: 13.5px;
+        background-color: rgba(237, 111, 171, 1);
+    } 
+    
+    .toolname4{
+    margin-left: 1100px;
+    margin-top: 55px; 
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500; 
+    font-size: 16px; 
+    font-weight: 290px; 
+    height: 31px;
+    color: rgba(0, 0, 0, 1);
+    }
+    
+    .schedule{
+        margin-left: 122px;
+        margin-top: 80px;
+    }
+    .reddot5{
+        margin-top: -50px;
+        margin-left: 145px;
+        width: 27px; 
+        height: 27px; 
+        border-radius: 13.5px;
+        background-color: rgba(237, 111, 171, 1);
+    } 
+    
+    .toolname5{
+    margin-left: 100px;
+    margin-top: 50px; 
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500; 
+    font-size: 16px; 
+    font-weight: 290px; 
+    height: 31px;
+    color: rgba(0, 0, 0, 1);} 
+    
+    .gallery{
+        margin-left: 485px;
+        margin-top: -380px;
+        margin-bottom: 100px;
+    }
+    .reddot6{
+        margin-top: -150px;
+        margin-left: 505px;
+        width: 27px; 
+        height: 27px; 
+        border-radius: 13.5px;
+        background-color: rgba(237, 111, 171, 1);
+    } 
+    
+    .toolname6{
+    margin-left: 470px;
+    margin-top: 55px; 
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500; 
+    font-size: 16px; 
+    font-weight: 290px; 
+    height: 31px;
+    color: rgba(0, 0, 0, 1);} 
+    
+    /*The sixth section of the landing page is shown here, this contains videos that are trending to users on child health care/
+    */
+    .sixthpage {
+        width: 100%;
+        /* height: 456px;  */
+        padding: 80px 50px;
+        background-color: rgba(75, 143, 192, 1);
+        margin-top: 105px;
+      }
+      
+      .top {
+        display: flex;
+        flex-direction: column;
+      }
+      .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+      
+      .logo img {
+        width: 250px;
+        object-fit: cover;
+      }
+      .logo span {
+        font-family: "Quicksand", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 1);
+        margin-left: 30px;
+        display: inline-block;
+      }
+      
+      .sixth-intro {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .sixth-intro span {
+        width: 100%;
+        line-height: 30.05px;
+        font-family: "Quicksand", sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        color: #ffffff;
+      }
+      .sixth-intro button {
+        width: 200px;
+        height: 47px;
+        border-radius: 6.71px;
+        background-color: rgba(255, 255, 255, 1);
+        font-family: "Quicksand", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #000000;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .sixth-intro button:hover {
+        background-color: #000000;
+        color: #ffffff;
+        transition: ease-in-out 0.4s;
+      }
+      
+      .videoscontainer {
+        width: 100%;
+        margin-top: 38px;
+        /* margin-left: 100px; */
+        /* height: 160px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* gap: 107px; */
+      }
+      
+      .video {
+        width: 300px;
+        height: 250px;
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+        z-index: 1;
+      }
+      
+      .videothumbnail {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      
+      .darkoverlay {
+        z-index: 5;
+        background-color: rgba(0, 0, 0, 0.28);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: center;
+        align-items: center;
+      }
+      .playbutton {
+        background-color: #fff;
+        width: 60px;
+        height: 60px;
+        z-index: 10;
+        border-radius: 100%;
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .playbutton img {
+        width: 30px;
+        height: 30px;
+      }
+      
+      .thumbnailoverlay {
+        height: 160px;
+        width: 292px;
+        margin-left: -399px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.28);
+      }
+      /* .playbutton2 {
+        margin-left: 120px;
+        margin-top: 46px;
+        width: 48px;
+        height: 48px;
+        background-color: #ffffff;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+        border-radius: 36.5px;
+        border: none;
+        margin-left: 40%;
+        cursor: pointer;
+      } */
+      /* .play {
+        margin-left: 14px;
+        margin-top: 13px;
+      } */
+      
+      /*The title and duration of the videos appears here*/
+      .titlecontainer {
+        /* height: 34px; */
+        width: 100%;
+        /* margin-left: 100px; */
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      
+        /* gap: 105px; */
+      }
+      .title {
+        width: 300px;
+      
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: space-between;
+        align-items: center;
+      }
+      #videotitle {
+        font-family: "Quicksand", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: #ffffff;
+      }
+      #videoduration {
+        font-family: "Quicksand", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.4);
+      }
+     /*The seventh SECTION of the Landing page*/
+     .seventhpage{
+        width: 497.94px; 
+        height: 177px; 
+        margin-left: 161px;
+        margin-top: 124px;
+        background-image: url('Photos/Our Testominals.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .previousbutton{
+        width: 48px; 
+        height: 48px; 
+        border-radius: 24px;
+        background-color: #FFFFFF; 
+        box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.11);
+        margin-left: 76px;
+        margin-top: -120px;
+    }
+    .backbutton{
+        width: 4.5px;
+        height: 9px;
+        margin-left: 20px;
+        margin-top: 18px;
+        cursor: pointer;
+    }
+    .commentbox{
+        width: 582px; 
+        height: 94px; 
+        margin-left: 161px;
+        margin-top: -70px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700; 
+         font-size: 16px; 
+         color: #000000;
+         z-index: 1000;
+    }
+    .commenter{
+        width: 153px; 
+        height: 31px;
+        margin-left: 161px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700; 
+         font-size: 16px; 
+         color: #989898;
+    }
+    .photocontainer{
+        margin-left: 66%;
+        margin-top: -12%;
+        width: 487px;
+        height: 258.51px;
+        background: url('Photos/Rectangle 48.png');
+        background-repeat: no-repeat;
+    }
+    .nextbutton{
+        width: 48px; 
+        height: 48px; 
+        border-radius: 24px;
+        background-color: #FFFFFF; 
+        box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.11);
+        margin-left: 94%;
+        margin-top: -9%;
+        cursor: pointer;
+    }
+     /*Eighth section of the page*/
+    .eigthheader{
+        width: 483px; 
+        height: 34px; 
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700; 
+         font-size: 32px; 
+         color: #242424;
+         margin-top: 180px;
+         margin-left: 100px;
+    }
+    .babydiaryblog{
+        width: 100%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .blogdetails{
+        width: 450px;
+        font-family: 'Quicksand', sans-serif;
+
+
+    }
+
+    .blogdetails img {
+        width: 100%;
+
+/* height: 250px; */
+    }
+    /*styles for the blog titles*/ 
+   
+    .blogtitle{
+        font-weight: 700; 
+        font-size: 18px; 
+        color: #000000; 
+        margin: 10px 0;
+    }
+  
+    .blogdescription{
+        font-weight: 500; 
+        font-size: 14px; 
+        color: rgba(152, 152, 152, 1); 
+    }
+    /*Ninth section of the page, Display download link of app*/
+    .appdownload{
+        width: 89%;
+        height: 279px; 
+        background: #FFF7FB;
+        border-radius: 17px;
+        margin-left: 100px;
+        margin-top: 50px;
+        padding-top: 76px;
+    }
+    .ninthheader{
+        width: 588px; 
+        height: 74px;
+        margin-left: 79px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .headingcontainer{
+        width: 374px; 
+        height: 31px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700; 
+        font-size: 32px; 
+        color: rgba(51, 35, 35, 1);
+    }
+    .subheadingcontainer{
+        width: 588px; 
+        height: 32px; 
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500; 
+        font-size: 18px; 
+        color: rgba(51, 35, 35, 1);
+        margin-top: 11px;
+    }
+    .downloadbuttons{
+        margin-top: 17px;
+        margin-left: 80px;
+        gap: 10px; 
+        cursor: pointer;
+    }
+    .halfscreen1{
+        margin-left: 763px;
+        margin-top: -95px;
+    }
+    .halfscreen2{
+        margin-left: 997px;
+        margin-top: -40%;
+        margin-bottom: 9.2%;
+    }
+    
+     /*Footer Section of the landing page*/
+    .footerarea{
+        width: 100%; 
+        height: 456px;
+        margin-top: 103px;
+        display: flex; 
+        flex-direction: row;
+        gap: 150px;
+        border: 1px solid #E4E5E7;
+    }
+    .aboutarea{
+        width: 331px; 
+        height: 132px; 
+        margin-left: 128px;
+        margin-top: 47px;
+    }
+    #abouthead{
+        width: 46px; 
+        height: 31px; 
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700; 
+        font-size: 16px; 
+        color: rgba(122, 126, 132, 1);
+        
+    }
+    #abouts{
+        width: 122px; 
+        height: 92px; 
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400; 
+        font-size: 16px; 
+        line-height: 30.5px;
+        color: rgba(122, 126, 132, 1);
+        margin-top: 9px;
+    }
+    
+    #abouts2{
+        width: 212px; 
+        height: 61px; 
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400; 
+        font-size: 16px; 
+        line-height: 30.5px;
+        color: rgba(122, 126, 132, 1);
+        margin-top: -92px;
+        margin-left: 126px;
+    }
+     
+    .aboutinfo{
+        width: 970px; 
+        height: 61px; 
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500; 
+        font-size: 16px; 
+        line-height: 30.5px;
+        margin-top: -250px;
+        margin-left: 128px;
+        color: rgba(134, 134, 134, 1);
+    }
+    .emtext{
+        color: rgba(237, 111, 171, 1);
+    }
+    Last section of the page/ 
+    .lastsection{
+        width: 100%; 
+        height: 89px; 
+        background-color: #FFFFFF;
+        box-sizing: border-box;
+        margin-top: 100px;
+        border: 1px solid #E4E5E7;
+    }
+    .graylogo{
+        margin-left: 128px;
+        margin-top: 27px;
+    }
+    .copywright{
+        width: 129px; 
+        height: 31px; 
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500; 
+        font-size: 14px; 
+        line-height: 30.5px;
+        color: rgba(134, 134, 134, 1); 
+        margin-top: -40px; 
+        margin-left: 322px;
+    }
+    .contacticons{
+        width: 187px; 
+        height: 22px; 
+        margin-left: 84%;
+        margin-top: -30px;
+    }
+    .twitter{
+      margin-left: 26px;
+  }
+       
